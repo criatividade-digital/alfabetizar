@@ -3,8 +3,8 @@
 # only Main files contain this front matter, not partials.
 ---
 // Bootstrap variables
-@import "/assets/vendor-template/bootstrap/scss/functions";
-@import "/assets/vendor-template/bootstrap/scss/variables";
+@import "../vendors/bootstrap/scss/functions";
+@import "../vendors/bootstrap/scss/variables";
 
 // Theme variables
 @import "variables";
@@ -14,11 +14,11 @@
 @import "user-variables";
 
 // Bootstrap core
-@import "/assets/vendor-template/bootstrap/scss/bootstrap";
+@import "../vendors/bootstrap/scss/bootstrap";
 
 // Extended bootstrap utilities 
 @import "custom/utilities";
-@import "/assets/vendor-template/bootstrap/scss/utilities/api";
+@import "../vendors/bootstrap/scss/utilities/api";
 
 // Extended bootstrap components
 @import "custom/breadcrumb";
