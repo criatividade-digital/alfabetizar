@@ -6,3 +6,5 @@ $primary_2: #b2ad7f;
 b {
   background-color: $primary_1; // here you can put an inline comment
 }
+
+@import "template/vendors/bootstrap/scss/functions";
