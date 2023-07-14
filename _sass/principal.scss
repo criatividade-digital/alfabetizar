@@ -8,3 +8,49 @@ b {
 }
 
 @import "template/vendors/bootstrap/scss/functions";
+
+@import "template/vendors/bootstrap/scss/variables";
+
+// Theme variables
+@import "template/variables";
+@import "template/variables-dark";
+
+// User variables
+@import "template/user-variables";
+
+// Bootstrap core
+@import "template//vendors/bootstrap/scss/bootstrap";
+
+// Extended bootstrap utilities 
+@import "template/custom/utilities";
+@import "template/vendors/bootstrap/scss/utilities/api";
+
+// Extended bootstrap components
+@import "template/custom/breadcrumb";
+@import "template/custom/buttons";
+@import "template/custom/card";
+@import "template/custom/dropdowns";
+@import "template/custom/list-group"; 
+@import "template/custom/nav";
+@import "template/custom/navbar";
+@import "template/custom/pagination";
+@import "template/custom/progress";
+@import "template/custom/reboot";
+@import "template/custom/type";
+@import "template/custom/badge";
+@import "template/custom/tables";
+
+// Theme components
+@import "template/components/apexchart";
+@import "template/components/general";
+@import "template/components/avatar";
+@import "template/components/divider";
+@import "template/components/overlay";
+@import "template/components/tiny-slider";
+@import "template/components/utilities";
+
+// Theme dark
+@import "template/dark-mode";
+
+// In this scss you can write your scss/css
+@import "template/user";
